@@ -1,0 +1,8 @@
+Financial Analysis
+--------------------------------------------------
+Total Months: 86
+Total P&L: $38,382,578.00
+Average Monthly Change: ($2,315.12)
+Greatest Increase in P&L: Feb-12, $1,170,593.00
+Greatest Decrease in P&L: Sep-13, ($1,196,225.00)
+None
