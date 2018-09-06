@@ -30,10 +30,11 @@ def output():
     print(f"Average M/M Change: {locale.currency(numpy.mean(change), grouping=True)}")
     print(f"Greatest M/M Increase in P&L: {months[maxchange+1]}, {locale.currency(change[maxchange], grouping=True)}")
     print(f"Greatest M/M Decrease in P&L: {months[minchange+1]}, {locale.currency(change[minchange], grouping=True)}")
-print(output())
+
+output()
 
 output_path = 'financial_analysis.txt'
 
 with open(output_path, 'w') as output_file:
     sys.stdout = output_file
-    print(output())
+    output()
